@@ -1,2 +1,8 @@
 1. 참고 경로
     https://okayoon.tistory.com/
+
+    논문
+    http://www.jkais99.org/journal/Vol20No07/vol20no07p74.pdf
+
+    Yolo
+    https://bong-sik.tistory.com/16
