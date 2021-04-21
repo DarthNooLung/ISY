@@ -7,3 +7,6 @@
     Yolo
     https://bong-sik.tistory.com/16
     https://deep-eye.tistory.com/6
+
+    Yolo Cfg 설정방법
+    https://keyog.tistory.com/22
