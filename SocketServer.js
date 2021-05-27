@@ -6,9 +6,14 @@ const io = require('socket.io')(server);
 
 io.sockets.on('connection', (socket) => {
 	socket.join("videos");
+	socket.join("danger");
 	socket.on('streaming', (data) => {
 		//console.log(data);
 		io.sockets.in("videos").emit('streaming', data);
+	});
+	socket.on("wop", (data) => {
+		//console.log(data);
+		io.sockets.in("danger").emit('wop', data);
 	});
 });
 
